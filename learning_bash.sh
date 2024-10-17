@@ -14,9 +14,9 @@ then
 fi
 
 
-for file in $@
+for file in "$@"
 do
 	echo "Counting lines, words, and characters in $file..."
-	wc $file
+	wc "$file"
 done
 
